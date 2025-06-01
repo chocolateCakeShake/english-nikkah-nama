@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 15px;
+    line-height: 1.4;
+    font-size: 14px;
+    background: white;
+    color: #000;
+    max-width: 800px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form-number {
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+.rule-reference {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.form-title {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.main-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.location-info {
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+.location-info .handwritten {
+    display: inline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+td {
+    padding: 4px;
+    vertical-align: top;
+}
+.field-number {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.field-description {
+    width: 45%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.field-value {
+    width: auto;
+    font-size: 15px;
+}
+.handwritten input {
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    color: darkblue;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.handwritten input:focus {
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+input.handwritten {
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    color: darkblue;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+input.handwritten:focus {
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+
+.signatures {
+    margin-top: 20px;
+    font-size: 11px;
+}
+.signature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.signature-box {
+    width: 48%;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+.attestation {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.stamp-area {
+    border: 1px solid #000;
+    width: 150px;
+    height: 80px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+.corrections-note {
+    background-color: #e8f5e8;
+    padding: 10px;
+    margin-top: 20px;
+    border-left: 4px solid #4caf50;
+    font-style: italic;
+    font-size: 10px;
+}
